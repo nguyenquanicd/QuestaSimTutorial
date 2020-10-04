@@ -3,3 +3,20 @@
  
 # SimpleBatchModeSimulation
  Running the QuestaSim in the batch mode
+ 
+## 1. Commands
+
+ 1/ Run command:
+ perl run_sim.pl -sim
+ 
+ 2/ Waveform view command:
+ perl run_sim.pl -wave Testbench.vcd
+ 
+## 2. Emvironment properties:
+ OS: Windows
+ 
+ Perl program: strawberry_5_26_0_2
+ 
+ Waveform viewer: GtkWave
+ 
+ QuestaSim: questasim64_10.2c
