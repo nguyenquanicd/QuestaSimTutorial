@@ -6,10 +6,13 @@
  
 ## 1. Commands
 
- 1/ Run command:
+ 1/ Run sim with the optimization (cannot view the waveform):
  perl run_sim.pl -sim
  
- 2/ Waveform view command:
+ 2/ Run sim without the optimization (can view the waveform):
+ perl run_sim.pl -simnovopt
+ 
+ 3/ Waveform view command:
  perl run_sim.pl -wave Testbench.vcd
  
 ## 2. Emvironment properties:
